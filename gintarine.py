@@ -58,4 +58,4 @@ df = pd.DataFrame(gintarine)
 print(df)
 
 # DataFramne issaygomas kaip CSV failas
-df.to_csv('ginta_vaistine.csv', index=False)
+df.to_csv('gintarine_vaistine.csv', index=False)
