@@ -8,7 +8,6 @@ Pasirenkant dvi populiarias Lietuvoje vaistines: "Gintarinė vaistinė" ir "Came
 Pirminis tikslas ištraukti iš tiklaraščio projektui reikiamą medžiagą. Ir sutvarkius duomenis naudojantis pandas biblioteka sukurti palyginančius grafikus.
 
 
-![Image alt](https://github.com/AlaskasCode/FINALINIS/blob/main/photo_5467865471345872671_y.jpg)
 <p align="center">
-<img width="200px" src="photo_5467865471345872671_y.jpg" alt="qr"/>
+<img width="500px" src="photo_5467865471345872671_y.jpg" alt="qr"/>
 </p>
