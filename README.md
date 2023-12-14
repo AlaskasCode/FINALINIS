@@ -16,3 +16,23 @@ Pirminis žingsnis buvo ištraukti reikiamą informaciją iš internetinių vais
 
 
 company_gintarine.py ir company_camelia.py kodai skirti pirminiam duomenų sutvarkymui. Ištraukdamos informaciją, sukūrėme trijų stulpelių failus: 'Pavadinimas', 'Iprastinė kaina' ir 'Kaina su nuolaida'. Stulpelis 'Pavadinimas' turėjo visą likusią informaciją, kurios mums reikėjo projektui. Iš stulpelio 'Pavadinimas' sukūrėme 'Kompanija', 'Vaistų pavadinimas' ir 'Kiekis'. Stulpeliui 'Kompanija' panaudojome pirmąjį žodį, jei žodis yra iš trijų ar mažiau raidžių, pridėjome antrąjį žodį. Stulpeliui 'Kiekis' naudojome paskutinę skaičių grupę esančią tekste. Abiem atvejais panaudoti duomenis buvo pašalinami iš teksto. O visa kita, kas liko, palikome stulpelyje 'Vaistų pavadinimas'.
+
+<p align="center">
+<img width="500px" src="1.png" alt="qr"/>
+</p>
+
+<p align="center">
+<img width="500px" src="2.png" alt="qr"/>
+</p>
+
+<p align="center">
+<img width="500px" src="3.png" alt="qr"/>
+</p>
+
+<p align="center">
+<img width="500px" src="4.png" alt="qr"/>
+</p>
+
+<p align="center">
+<img width="500px" src="5.png" alt="qr"/>
+</p>
