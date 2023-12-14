@@ -66,7 +66,7 @@ Apibendrinimas:
 Šiam projektui buvo naudojama informacija, kurią radome įvairiuose forumuose ir remiantis įvairiais puslapiais apie Python programas.
 
 <p align="center">
-<img width="1000px" src="photo_5467865471345872867_y.jpg" alt="qr"/>
+<img width="500px" src="photo_5467865471345872867_y.jpg" alt="qr"/>
 </p>
 
 
