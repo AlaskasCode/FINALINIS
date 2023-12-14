@@ -6,4 +6,9 @@ Projekto tikslas yra įgyvendinti pirmajį projektą Python programa. Pasirinkto
 Atsižvelgiant į faktą, kad vaistinėse vitaminų daugiau nei vaistų, pasirinkome vitamigu kategoriją.
 Pasirenkant dvi populiarias Lietuvoje vaistines: "Gintarinė vaistinė" ir "Camelia".
 Pirminis tikslas ištraukti iš tiklaraščio projektui reikiamą medžiagą. Ir sutvarkius duomenis naudojantis pandas biblioteka sukurti palyginančius grafikus.
+
+
 ![Image alt](https://github.com/AlaskasCode/FINALINIS/blob/main/photo_5467865471345872671_y.jpg)
+<p align="center">
+<img width="200px" src="photo_5467865471345872671_y.jpg" alt="qr"/>
+</p>
