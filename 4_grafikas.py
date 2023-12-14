@@ -28,21 +28,21 @@ fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(15, 5))
 
 # Pirmoji stulpelinė diagrama
 axes[0].bar(eiluciu_skaiciai3.index, eiluciu_skaiciai3, color='skyblue')
-axes[0].set_title('Gintarine: Pasirinkimas kitu vitaminu, kurios nera Camelijoje')
+axes[0].set_title('Gintarine: Vitaminu gamintojai, kuriu nera Camelijos vaistineje')
 axes[0].set_xlabel('Tik Gintarine')
-axes[0].set_ylabel('Pasirinkimas')
+axes[0].set_ylabel('Kiekis')
 
 bar_width = 0.4
 index = np.arange(len(norimos_kompanijos))
 norimos_kompanijos = eiluciu_skaiciai1.index.union(eiluciu_skaiciai2.index)
 
-
+# Antroji stulpelinė diagrama
 plt.bar(index, eiluciu_skaiciai1, label='Camelia', color='pink', width=bar_width)
 plt.bar(index + bar_width, eiluciu_skaiciai2, label='Gintarine', color='skyblue', width=bar_width)
 
-plt.title('Pasirinkimas vitaminus su vienoda kompanija Camelia ir Gintarine vaistineje')
+plt.title('Vienodu vitaminu gamintoju pasirinkimas Camelijos ir Gintarineje vaistinese')
 plt.xlabel('Camelia ir Gintarine')
-plt.ylabel('Pasirinkimas')
+plt.ylabel('Kiekis')
 plt.xticks(index + bar_width / 2, norimos_kompanijos)
 plt.legend()
 
