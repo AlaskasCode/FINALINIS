@@ -9,7 +9,7 @@ camelija_kainos = duomenys['Iprastine kaina camelia'].str.replace(',', '.').asty
 # Ištraukti kainas iš Gintarinės vaistinės
 gintarine_kainos = duomenys['Iprastine kaina gintarine'].str.replace(',', '.').astype(float)
 
-# Paskaičiuoti vidutinę kainą kiekvienai vaistinei
+# Paskaičiuoti min ir max kainą kiekvienai vaistinei
 maziausia_camelija_kaina = camelija_kainos.min()
 maziausia_gintarine_kaina = gintarine_kainos.min()
 
@@ -33,20 +33,20 @@ print(f"Vidutinė kaina Gintarinėje: {vidutine_gintarine_kaina}")
 # Sukurti stulpelinį grafiką
 fig, ax = plt.subplots(figsize=(10, 6))
 
-# Pridėkite stulpelius su spalvomis
+# Pridėsime stulpelius su spalvomis
 bars = ax.bar(['Camelia (min)', 'Gintarinė (min)', 'Camelia (max)', 'Gintarinė (max)', 'Cameliia (avg)', 'Gintarinė (avg)'],
               [maziausia_camelija_kaina, maziausia_gintarine_kaina, didziausia_camelija_kaina,
                didziausia_gintarine_kaina, vidutine_camelija_kaina, vidutine_gintarine_kaina],
               color=['pink', 'skyblue', 'pink', 'skyblue', 'pink', 'skyblue'])
-# Nustatykite teksto etiketes ir pasukimą
+# Nustatysime teksto etiketes ir pasukimą
 ax.set_xticklabels(['Camelia (min)', 'Gintarinė (min)', 'Camelia (max)', 'Gintarinė (max)', 'Cameliia (avg)', 'Gintarinė (avg)'], rotation=20)
-# Pridėkite anotacijas virš stulpelių su pasuktu tekstu
+# Pridėsime anotacijas virš stulpelių su pasuktu tekstu
 for bar, value in zip(bars, [maziausia_camelija_kaina, maziausia_gintarine_kaina, didziausia_camelija_kaina,
                               didziausia_gintarine_kaina, vidutine_camelija_kaina, vidutine_gintarine_kaina]):
     height = bar.get_height()
     ax.text(bar.get_x() + bar.get_width() / 2, height, f'{round(value, 2)}', ha='center', va='bottom')
 
 ax.set_ylabel('Kaina')
-ax.set_title('Min, Max and Avg Prices for multuvitamins in Cameliia and Gintarinė')
+ax.set_title('Min, Max ir Vidutinės Kainos multivitaminams Camelijoje ir Gintarinėje')
 plt.show()
 
