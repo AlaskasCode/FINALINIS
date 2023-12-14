@@ -53,6 +53,16 @@ Apibendrinimas:
 
 
 
+
+
+
+
+
+
+
+
+
+
 Šiam projektui buvo naudojama informacija, kurią radome įvairiuose forumuose ir remiantis įvairiais puslapiais apie Python programas.
 
 <p align="center">
