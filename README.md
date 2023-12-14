@@ -17,10 +17,13 @@ Pirminis žingsnis buvo ištraukti reikiamą informaciją iš internetinių vais
 
 company_gintarine.py ir company_camelia.py kodai skirti pirminiam duomenų sutvarkymui. Ištraukdamos informaciją, sukūrėme trijų stulpelių failus: 'Pavadinimas', 'Iprastinė kaina' ir 'Kaina su nuolaida'. Stulpelis 'Pavadinimas' turėjo visą likusią informaciją, kurios mums reikėjo projektui. Iš stulpelio 'Pavadinimas' sukūrėme 'Kompanija', 'Vaistų pavadinimas' ir 'Kiekis'. Stulpeliui 'Kompanija' panaudojome pirmąjį žodį, jei žodis yra iš trijų ar mažiau raidžių, pridėjome antrąjį žodį. Stulpeliui 'Kiekis' naudojome paskutinę skaičių grupę esančią tekste. Abiem atvejais panaudoti duomenis buvo pašalinami iš teksto. O visa kita, kas liko, palikome stulpelyje 'Vaistų pavadinimas'.
 
+Kai jau manėme, kad susitvarkėme visus duomenis ir liko tik palyginti kainas, supratome, kad neturime ką lyginti. Vaistinėse prekiaujama skirtingų kompanijų vitaminų. Turėdami iš abiejų kompanijų kiekius po beveik 1500, nei vienas pavadinimas nesutapo. Radome 10 sutampančių kompanijų. Tačiau vitaminų kiekiai labai skyrėsi, todėl ir tuo remiantis negalėjome kainų sulyginti, nes neatrodė, kad tai būtų verta dėmesio.
+
 <p align="center">
 <img width="500px" src="1.png" alt="qr"/>
 </p>
 
+Išsigilinusios į turimus modified_camelia.csv ir modified_gintarine.csv failus, radome raktinį žodį 'multivitaminai'. Ištraukėme iš stulpelio 'Vaistų pavadinimas' visus duomenis, kuriuose buvo žodis 'multivitaminai', ir apjungėme juos į naują DataFrame. Sukūrus DataFrame, pastebėjome, kad turime nemažai duomenų. Tačiau paaiškėjo, kad viena vaistinė turi gerokai daugiau vitaminų su raktiniu žodžiu 'multivitaminai' nei kita.
 <p align="center">
 <img width="500px" src="2.png" alt="qr"/>
 </p>
