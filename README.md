@@ -24,26 +24,26 @@ company_gintarine.py ir company_camelia.py kodai skirti pirminiam duomenų sutva
 Kai jau manėme, kad susitvarkėme visus duomenis ir liko tik palyginti kainas, supratome, kad neturime ką lyginti. Vaistinėse prekiaujama skirtingų kompanijų vitaminų. Turėdami iš abiejų kompanijų kiekius po beveik 1500, nei vienas pavadinimas nesutapo. Radome 10 sutampančių kompanijų. Tačiau vitaminų kiekiai labai skyrėsi, todėl ir tuo remiantis negalėjome kainų sulyginti, nes neatrodė, kad tai būtų verta dėmesio.
 
 <p align="center">
-<img width="1000px" src="1.png" alt="qr"/>
+<img width="800px" src="1.png" alt="qr"/>
 </p>
 
 
 
 Išsigilinusios į turimus modified_camelia.csv ir modified_gintarine.csv failus, radome raktinį žodį 'multivitaminai'. Ištraukėme iš stulpelio 'Vaistų pavadinimas' visus duomenis, kuriuose buvo žodis 'multivitaminai', ir apjungėme juos į naują DataFrame. Sukūrus DataFrame, pastebėjome, kad turime nemažai duomenų. Tačiau paaiškėjo, kad viena vaistinė turi gerokai daugiau vitaminų su raktiniu žodžiu 'multivitaminai' nei kita.
 <p align="center">
-<img width="1000px" src="2.png" alt="qr"/>
+<img width="800px" src="2.png" alt="qr"/>
 </p>
 
 <p align="center">
-<img width="1000px" src="3.png" alt="qr"/>
+<img width="800px" src="3.png" alt="qr"/>
 </p>
 
 <p align="center">
-<img width="1000px" src="4.png" alt="qr"/>
+<img width="800px" src="4.png" alt="qr"/>
 </p>
 
 <p align="center">
-<img width="1000px" src="5.png" alt="qr"/>
+<img width="800px" src="5.png" alt="qr"/>
 </p>
 Ir pabaigai, bendram kainų palyginimui, remiantis tik pakuotės kiekiais, kuriuose yra 30 vnt, 60 vnt ir 90 vnt, abiejose vaistinėse.
 
